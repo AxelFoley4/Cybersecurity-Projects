@@ -20,13 +20,6 @@ flowchart TD
     DC -- Entra Connect --> ENTRA[Entra ID Tenant]
 ```
 
-```
-[ pfSense firewall ]
-        |
-[ Domain Controller (AD DS, DNS) ] --- Entra Connect --- [ Entra ID tenant ]
-        |
-[ Windows client(s) ]
-```
 
 | Component | Purpose |
 |-----------|---------|
