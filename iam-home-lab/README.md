@@ -17,7 +17,7 @@ A hybrid identity lab that connects an on-premises Active Directory environment 
 flowchart TD
     FW[pfSense Firewall] --> DC[Domain Controller<br/>AD DS + DNS]
     DC --> CLIENT[Windows Client]
-    DC -- Entra Connect --> ENTRA[Entra ID Tenant]
+    DC -- CLIENT[Entra Connect] --> ENTRA[Entra ID Tenant]
 ```
 
 
